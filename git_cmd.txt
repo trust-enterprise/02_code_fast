@@ -1,0 +1,11 @@
+git navigate 
+> cd "C:\Users\Tahseen Fatima\Desktop\misc\02 codeFast"
+
+git init
+git add .
+
+git remote add origin https://github.com/trust-enterprise/02_code_fast.git
+git branch -M main
+git commit -m 'msg'
+git push
+
