@@ -1,4 +1,4 @@
-import Image from "next/image";
+import ButtonLogin from "@/components/ButtonLogin";
 
 export default function Home() {
   return (
@@ -7,6 +7,8 @@ export default function Home() {
       <div>
         Create feedback board in minutes, prioritize features and build features your customer will love.
       </div>
+
+      <ButtonLogin></ButtonLogin>
       {/* <button className="btn">Get Started</button> */}
     </main>
   );
